@@ -73,9 +73,15 @@
     color: #f6efde;
     text-shadow: 0 0 60px rgba(200,168,75,0.22);
     animation: breathe 14s ease-in-out infinite;
-    width: 100%;
-    text-align: center;
     display: block;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-indent: 0.06em;
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: clamp(42px, 8vw, 96px);
   }
   @keyframes breathe {
     0%, 100% { text-shadow: 0 0 50px rgba(200,168,75,0.16); }
